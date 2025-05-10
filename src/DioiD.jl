@@ -1,4 +1,15 @@
 module DioiD
 
+include("prekits/logaddfn.jl")
+
+include("basic/01-type.jl")
+include("basic/02-add.jl")
+include("basic/03-mul.jl")
+include("basic/04-power.jl")
+include("basic/05-div.jl")
+include("basic/06-sub.jl")
+include("basic/07-random.jl")
+include("basic/08-identity.jl")
+include("basic/09-unary.jl")
 
 end # module DioiD
