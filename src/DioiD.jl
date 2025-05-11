@@ -36,4 +36,36 @@ include("identity/vec-concat.jl")
 include("identity/vec-prefix.jl")
 include("identity/vec-suffix.jl")
 
+
+export Dioid
+export value
+export setmark
+export unary
+
+# compounded
+export Carctic, carctic, carctic₊, carcticₓ
+export Dual, dual, dual₊, dualₓ
+
+# mathematical alias
+export ⊕
+export ⊖
+export ⊙
+export ⨸
+
+# special symbols
+export Strinf
+export SVec
+export inact
+export inverse
+
+# binary operations
+export logadd
+export nlogadd
+export lcprefix
+export lcsuffix
+
+# some properties
+export iszeroclosed, is0closed
+
+
 end # module DioiD
