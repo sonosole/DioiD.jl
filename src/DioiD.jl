@@ -17,4 +17,8 @@ include("special/infvec.jl")
 include("special/semiring-carctic.jl")
 include("special/semiring-dual.jl")
 
+include("extend/inact.jl")
+include("extend/inverse.jl")
+include("extend/kclosed.jl")
+
 end # module DioiD
