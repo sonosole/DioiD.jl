@@ -12,4 +12,9 @@ include("basic/07-random.jl")
 include("basic/08-identity.jl")
 include("basic/09-unary.jl")
 
+include("special/infstr.jl")
+include("special/infvec.jl")
+include("special/semiring-carctic.jl")
+include("special/semiring-dual.jl")
+
 end # module DioiD
